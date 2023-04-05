@@ -1,8 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://1i2aw2x0r22f"]
+[gd_scene load_steps=3 format=3 uid="uid://ckso1wutgrgkm"]
 
-[ext_resource type="Script" path="res://Script/Main.gd" id="1_4chkg"]
-[ext_resource type="PackedScene" uid="uid://buuxvlq2wtwjm" path="res://Scene/Assets/Block.tscn" id="2_ucofo"]
+[ext_resource type="Script" path="res://Script/main.gd" id="1_gjtex"]
+[ext_resource type="Script" path="res://Script/grid.gd" id="2_tcyi1"]
 
 [node name="Main" type="Node2D"]
-script = ExtResource("1_4chkg")
-packed_block = ExtResource("2_ucofo")
+script = ExtResource("1_gjtex")
+
+[node name="grid" type="Node2D" parent="."]
+script = ExtResource("2_tcyi1")
