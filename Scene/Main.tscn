@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://1i2aw2x0r22f"]
+[gd_scene load_steps=3 format=3 uid="uid://1i2aw2x0r22f"]
 
 [ext_resource type="Script" path="res://Script/Main.gd" id="1_4chkg"]
+[ext_resource type="PackedScene" uid="uid://buuxvlq2wtwjm" path="res://Scene/Assets/Block.tscn" id="2_ucofo"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_4chkg")
+packed_block = ExtResource("2_ucofo")
